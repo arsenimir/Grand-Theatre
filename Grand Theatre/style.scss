@@ -1,0 +1,636 @@
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url("OpenSansCondensed/OpenSans_Condensed-Bold.woff");
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+} 
+  
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url("OpenSansCondensed/OpenSans_Condensed-Light.woff");
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+} 
+
+$fontColor: #FFFFFF;
+$footercolor: #989898;
+$coreFontSize: 14px;
+$litleFontSize: 12px;
+$buttonFontSize: 18px;
+$titleFontSize: 48px;
+$backgroundColor: #333333;
+$secondColor: #D1A954;
+$OpenSans:'Open Sans', sans-serif;
+$OpenSansCondensed:'Open Sans Condensed', sans-serif;
+
+@mixin space-between($width, $hight, $columnRow){
+    display: flex;
+    justify-content: space-between;
+    flex-direction: $columnRow;
+    width: $width;
+    height: $hight;
+}
+
+@mixin center($width, $height){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: $width;
+    height: $height;
+}
+
+@mixin OpenSansCondensed ($letter, $lineHeight, $fontSize){
+    font-family: $OpenSansCondensed;
+    font-size: $fontSize;
+    font-weight: 700;
+    line-height: $lineHeight;
+    letter-spacing: $letter;
+    color: $fontColor;
+}
+
+@mixin mainText(){
+    font-family: $OpenSans;
+    font-size: $coreFontSize;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+@mixin button($width){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $secondColor;
+    width: $width;
+    height: 50px;
+}
+
+@mixin sliderImg($top, $left, $z){
+    position: relative;
+    top: $top;
+    left: $left;
+    height: 490px;
+    width: 350px;
+    z-index: $z;
+} 
+
+// навигация
+
+// 1) зафиксированный контент
+// 2) header
+// 3) визитка сайта
+// 4) главная информация о театре
+// 5) постановки театра
+// 6) мнение критиков о театре
+// 7) партнеры театра
+// 8) footer
+// 9) поле регистрации 
+// 10) информация о правообладателях
+
+// навигация
+
+a{
+    text-decoration: none;
+    color: $fontColor;
+}
+
+.gold_text{
+    color: $secondColor;
+}
+
+.title{
+    font-family: $OpenSansCondensed;
+    font-size: $titleFontSize;
+    font-weight: 300;
+    line-height: 65.37px;
+    letter-spacing: 0.1em; 
+}
+
+body,html{
+    font-size: 16px;
+    color: $fontColor;
+    background-color: $backgroundColor;
+    margin: 0;
+}
+
+main{
+    @include space-between(100%, 4437px - 633px, column);
+    align-items: center;
+}
+
+// 1) зафиксированный контент
+
+.fixsed-container{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: fixed;
+    left: 0;
+    width: 150px;
+    height: 100vh;
+    background-color: #333333BF;
+    
+    .fixsed-contanet{
+        @include space-between(26px, 174px + 242px + 160px, column);
+        margin-bottom: 86px;
+        
+        
+        .fixsed-container_text{
+            @include OpenSansCondensed(0.1em, 24.5px, $buttonFontSize);
+            transform: rotate(270deg);
+            width: 255px;
+            height: 255px;
+        }
+
+        .fixsed-container_border{
+            align-self: center;
+            border-left: 3px solid #C4C4C4;
+            height: 80px;
+        }
+
+        .fixsed-container_social-networks_container{
+            @include space-between(26px, 174px, column);
+            align-items: center;
+
+            .instagram{
+                background: url("grandTheatreSvg/instagram.svg") center
+                no-repeat;
+                width: 26px;
+                height: 26px;
+            }
+
+            .facebook{
+                background: url("grandTheatreSvg/facebook.svg") center
+                no-repeat;
+                width: 15px;
+                height: 26px;
+            }
+
+            .vk{
+                background: url("grandTheatreSvg/vk.svg") center
+                no-repeat;
+                width:26px;
+                height: 14px;
+            }
+
+            .youtube{
+                background: url("grandTheatreSvg/youtube.svg") center
+                no-repeat;
+                width: 26px;
+                height: 18px;
+            }
+        }
+    }
+}
+
+// 2) header
+
+header{
+    @include center(100%, 127px);
+    position: absolute;
+
+    .header_container{
+        @include space-between(1110px, 28px, row);
+
+
+        .navigator{
+            @include space-between(824px, 28px, row);
+
+            nav{
+                @include OpenSansCondensed(0.1em, 24.51px, 18px);
+            }
+        }
+
+        .header__mobile-number{
+            @include OpenSansCondensed(0.05em, 25px, 16px);
+            border-bottom: 2px solid $secondColor;
+        }
+    }
+}
+
+// 3) визитка сайта
+
+.Business-card-site{
+    @include center(100%, 1045px);
+    background-image: url("grandTheatreImg/background_img.png");
+    background-size: cover;
+
+    .Business-card-site__container{
+        @include space-between(370px + 125px + 540px, 570px, row);
+        align-items: center;
+        margin-right: 75px;
+        margin-top: 30.5px;
+
+        .Business-card-site__content{
+            @include space-between(540px, 296px, column);
+
+            h1{
+                @include OpenSansCondensed(0.1em, 87px, 64px);
+                margin: 0px;
+            }
+
+            .Business-card-site_content_text{
+                @include mainText()
+            }
+
+            .Business-card-site_content_button{
+                @include button(160px);
+                @include OpenSansCondensed(0.1em, 25px, 18px)
+            }
+        }
+
+        .slider{
+            height: 570px;
+            width: 370px;
+
+            .slider__img-container{
+                height:510px;
+                width: 370px;
+    
+                .slider__img-container_first-img{
+                    @include sliderImg(0, 0, 100000000)
+                }
+    
+                .slider__img-container_second-img{
+                    @include sliderImg(-474px, 20px, 1)
+                }
+            }
+
+            .slider__button-container{
+                @include space-between(370px, 60px, row);
+                align-items: end;
+
+                #slider__button-container__left{
+                    @include space-between(108px, 25px, row);
+                    align-items: center;
+                    padding: 0px;
+                    border: 0px;
+                    background-color: rgba(0, 0, 0, 0);
+
+                    .slider__button-container__left__svg{
+                        background: url("grandTheatreSvg/vector_left.svg") center
+                        no-repeat;
+                        width: 49px;
+                        height: 25px;
+                    }
+
+                    .slider__button-container__left__text{
+                       @include OpenSansCondensed(0.1em, 25px, 18px);
+                    }
+                }
+
+                #slider__button-container__right{
+                    @include space-between(108px, 25px, row);
+                    align-items: center;
+                    padding: 0px;
+                    border: 0px;
+                    background-color: rgba(0, 0, 0, 0);
+
+                    .slider__button-container__right__svg{
+                        background: url("grandTheatreSvg/vector_right.svg") center
+                        no-repeat;
+                        width: 49px;
+                        height: 25px;
+                    }
+
+                    .slider__button-container__right__text{
+                       @include OpenSansCondensed(0.1em, 25px, 18px);
+                       width: 43px; 
+                       height: 25px; 
+                    }
+                }
+
+                #slider__button-container__right{
+                    @include space-between(108px, 25px, row);
+                    align-items: center;
+                    padding: 0px;
+                    border: 0px;
+                    background-color: rgba(0, 0, 0, 0);
+                }
+            }
+        }
+    }
+}
+
+// 4) главная информация о театре
+
+.about-the-theater{
+    @include space-between(1110px, 457px, column);
+    align-items: center;
+
+
+    
+    .about-the-theater_content{
+        @include space-between(1110px, 292px, row);
+
+        .about-the-theater_text-container{
+            @include space-between(445px, 273px, column);
+            
+            .about-the-theater_text_content{
+                @include mainText();
+                margin-bottom: 19px;
+            }
+        }
+
+        .about-the-theater_title{
+            @include OpenSansCondensed(0.1em, 29px, 21px);
+
+        }
+
+        .about-the-theater_statistics{
+            @include space-between(255px, 292px, column);
+
+            .about-the-theater_statistics_svg-container{
+                @include space-between(166px, 102px + 102px + 25px, column);
+
+                .about-the-theater_statistics_svg-content{
+                    @include space-between(166px, 102px, column)
+                }
+
+                .about-the-theater_statistics_svg{
+                    height: 70px;
+                    width: 70px;
+                    left: 880px;
+                }
+    
+                .about-the-theater_statistics_svg-container_text{
+                    @include OpenSansCondensed(0.05em, 22px, 16px);
+                }
+            }
+        }
+    }
+}
+
+// 5) постановки театра
+
+.our-productions{
+    @include space-between(100%, 715px, column);
+    align-items: center;
+    align-self: flex-end;
+    overflow: hidden;
+
+    #theater-partners_contant-container{
+        display: flex;
+        align-self: flex-start;
+        width: 91.28vw;
+        height: 550px;
+        margin-left: 150px;
+        overflow-x: auto;
+        
+
+        &::-webkit-scrollbar {
+            display: none;  
+        }
+
+        .content_line{
+            display: flex;
+            width: 1768px;
+            min-width: 1768px;
+            position: relative;
+            height: 550px;
+        }
+
+        .theater-partners_september{
+            background-image: url("grandTheatreImg/Rectangle 15.png");
+            background-size: cover;
+            @include space-between(442px, 550px, column);
+        }
+
+        .theater-partners_img{
+            background-image: url("grandTheatreImg/Rectangle 16.png");
+            background-size: cover;
+            @include center(442px, 550px,);
+        }
+
+        .theater-partners_july{
+            background-image: url("grandTheatreImg/lodge.png");
+            background-size: cover;
+            @include space-between(442px, 550px, column);
+        }
+
+        .theater-partners_may{
+            background-image: url("grandTheatreImg/fountain.png");
+            background-size: cover;
+            @include space-between(442px, 550px, column);
+        }
+
+        .theater-partners_svg{
+            @include center(30px, 30px,);
+            background: url("grandTheatreSvg/lupa.svg") center
+            no-repeat;
+            background-color: $secondColor;
+            border: 0px;
+            border-radius: 100px;
+            padding: 35px;
+        }
+        
+        .theater-partners_img-title{
+            @include OpenSansCondensed(0.05em, 33px, 24px);
+            margin: 40px;
+        }
+
+        .theater-partners_img-date{
+            @include OpenSansCondensed(0.1em, 23px, $buttonFontSize);
+            width: 133px;
+            text-align: start;
+            position: relative;
+            left: -17px;
+            bottom: 90px;
+            transform: rotate(270deg);
+        }
+    }
+}
+
+// 6) мнение критиков о театре
+
+.rating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("grandTheatreImg/smallBacground.png") center
+    no-repeat;
+    width: 1110px;
+    height: 550px;
+
+    .rating_container{
+        @include space-between(182px + 540px + 103px, 298px, row);
+        align-items: center;
+        margin-left: 95px;
+
+        .rating_date{
+            @include OpenSansCondensed(0.1em, 98px, 72px);
+            width: 182px;
+            color: $secondColor;
+        }
+
+        .rating_content-container{
+            @include space-between(540px, 149px + 24px + 40px, column);
+
+            .rating_star{
+                @include space-between(230px, 24px, row);
+
+                .star_svg{
+                    background: url("grandTheatreSvg/star.svg") center
+                    no-repeat;
+                    width: 26px;
+                    width: 26px;
+                }
+            }
+
+            .rating_text{
+                width: 540px;
+                font-family: $OpenSans;
+                font-size: 36px;
+                font-weight: 700;
+                line-height: 54px;
+                letter-spacing: 0em;
+                text-align: left;                                
+            }
+        }
+    }
+}
+
+// 7) партнеры театра
+
+.theater-partners{
+    @include space-between(1040px, 437px, column);
+    align-items: center;
+
+    .gazprom-container{
+        display: grid;
+        grid-template-columns: 200px 200px 200px 200px;
+        grid-template-rows: 96px 96px;
+        gap: 80px;
+
+        .gazprom-svg{
+            background: url("grandTheatreSvg/logogazprom.svg") center
+            no-repeat;            
+        }
+    }
+}
+
+// 8) footer
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+// 9) поле регистрации 
+
+.become-a-philanthropist{
+    @include space-between(1110px, 355px, column);
+    align-items: center;
+    margin-top: 120px;
+
+    .become-a-philanthropist-container{
+        @include space-between(1110px, 190px, row);
+
+        .become-a-philanthropist-contact{
+            @include space-between(255px, 143px, column);
+    
+            .become-a-philanthropist-contact_text{
+                @include OpenSansCondensed(0.05px, 22px, 16px);
+                width: 255px;
+            }
+        }
+
+        .become-a-philanthropist-contact_input-container{
+            display: grid;
+            grid-template-columns: 180px 180px 310px;
+            grid-template-rows: 35px 35px 60px;
+            gap: 30px;
+
+            input{
+                color: $footercolor;
+                padding: 0px;
+                padding-left: 15px;
+
+                &:focus-visible {
+                    outline: none;
+                }
+            }   
+            
+            textarea{
+                color: $footercolor;
+                padding-left: 15px;
+                padding-top: 8px;
+                resize: none;
+
+                &:focus-visible {
+                    outline: none;
+                }
+            }
+            
+            .become-a-philanthropist-contact_input-container_input{
+                background-color: #444444;
+                border: 1px solid #616161;
+                font-family: $OpenSans;
+                font-size: $litleFontSize;
+                font-weight: 600;
+                line-height: 18px;
+                letter-spacing: 0em;
+                text-align: left;
+            }
+
+            .input-big{
+                grid-row: 1/3;
+                grid-column: 3/4;      
+            }
+
+            .become-a-philanthropist-contact_input-container_element-text{
+                grid-column: 1/3;
+                padding-top: 10px;
+                font-family: $OpenSans;
+                font-size: $litleFontSize;
+                color: $footercolor;
+                font-weight: 400;
+                line-height: 18px;
+                letter-spacing: 0em;                
+            }
+
+            .become-a-philanthropist-contact_input-container_button-container{
+                align-self: end;
+                justify-self: end;
+                height: 50px;
+                width: 190px;
+                padding-top: 10px;
+
+                .become-a-philanthropist-contact_input-container_button{
+                    @include OpenSansCondensed(0.1em, 25px, 18px);
+                    color: $fontColor;
+                    text-align: center;
+                    width: 190px;
+                    height: 50px;
+                    background-color: $secondColor;
+                    padding: 0px;
+                    border: 0;
+                }
+            }
+        }
+    }
+
+}
+
+// 10) информация о правообладателях
+
+.license{
+    @include  space-between(1110px, 78px, row);
+    align-items: center;
+    border-top: 1px solid #565656;
+    margin-top: 80px;
+
+    .license-text{
+        font-family: $OpenSans;
+        font-size: $litleFontSize;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;  
+        color: $footercolor;     
+    }
+}
+

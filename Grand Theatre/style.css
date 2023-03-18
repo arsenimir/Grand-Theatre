@@ -1,0 +1,1046 @@
+@font-face {
+  font-family: "Open Sans Condensed";
+  src: url("OpenSansCondensed/OpenSans_Condensed-Bold.woff");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans Condensed";
+  src: url("OpenSansCondensed/OpenSans_Condensed-Light.woff");
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.gold_text {
+  color: #D1A954;
+}
+
+.title {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 65.37px;
+  letter-spacing: 0.1em;
+}
+
+body, html {
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color: #333333;
+  margin: 0;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 3804px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fixsed-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  position: fixed;
+  left: 0;
+  width: 150px;
+  height: 100vh;
+  background-color: rgba(51, 51, 51, 0.7490196078);
+}
+.fixsed-container .fixsed-contanet {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 26px;
+  height: 576px;
+  margin-bottom: 86px;
+}
+.fixsed-container .fixsed-contanet .fixsed-container_text {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24.5px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+  width: 255px;
+  height: 255px;
+}
+.fixsed-container .fixsed-contanet .fixsed-container_border {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  border-left: 3px solid #C4C4C4;
+  height: 80px;
+}
+.fixsed-container .fixsed-contanet .fixsed-container_social-networks_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 26px;
+  height: 174px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.fixsed-container .fixsed-contanet .fixsed-container_social-networks_container .instagram {
+  background: url("grandTheatreSvg/instagram.svg") center no-repeat;
+  width: 26px;
+  height: 26px;
+}
+.fixsed-container .fixsed-contanet .fixsed-container_social-networks_container .facebook {
+  background: url("grandTheatreSvg/facebook.svg") center no-repeat;
+  width: 15px;
+  height: 26px;
+}
+.fixsed-container .fixsed-contanet .fixsed-container_social-networks_container .vk {
+  background: url("grandTheatreSvg/vk.svg") center no-repeat;
+  width: 26px;
+  height: 14px;
+}
+.fixsed-container .fixsed-contanet .fixsed-container_social-networks_container .youtube {
+  background: url("grandTheatreSvg/youtube.svg") center no-repeat;
+  width: 26px;
+  height: 18px;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 127px;
+  position: absolute;
+}
+header .header_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 1110px;
+  height: 28px;
+}
+header .header_container .navigator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 824px;
+  height: 28px;
+}
+header .header_container .navigator nav {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24.51px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+}
+header .header_container .header__mobile-number {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  border-bottom: 2px solid #D1A954;
+}
+
+.Business-card-site {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 1045px;
+  background-image: url("grandTheatreImg/background_img.png");
+  background-size: cover;
+}
+.Business-card-site .Business-card-site__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 1035px;
+  height: 570px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 75px;
+  margin-top: 30.5px;
+}
+.Business-card-site .Business-card-site__container .Business-card-site__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 540px;
+  height: 296px;
+}
+.Business-card-site .Business-card-site__container .Business-card-site__content h1 {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 87px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  margin: 0px;
+}
+.Business-card-site .Business-card-site__container .Business-card-site__content .Business-card-site_content_text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.Business-card-site .Business-card-site__container .Business-card-site__content .Business-card-site_content_button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #D1A954;
+  width: 160px;
+  height: 50px;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+}
+.Business-card-site .Business-card-site__container .slider {
+  height: 570px;
+  width: 370px;
+}
+.Business-card-site .Business-card-site__container .slider .slider__img-container {
+  height: 510px;
+  width: 370px;
+}
+.Business-card-site .Business-card-site__container .slider .slider__img-container .slider__img-container_first-img {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 490px;
+  width: 350px;
+  z-index: 100000000;
+}
+.Business-card-site .Business-card-site__container .slider .slider__img-container .slider__img-container_second-img {
+  position: relative;
+  top: -474px;
+  left: 20px;
+  height: 490px;
+  width: 350px;
+  z-index: 1;
+}
+.Business-card-site .Business-card-site__container .slider .slider__button-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 370px;
+  height: 60px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+.Business-card-site .Business-card-site__container .slider .slider__button-container #slider__button-container__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 108px;
+  height: 25px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px;
+  border: 0px;
+  background-color: rgba(0, 0, 0, 0);
+}
+.Business-card-site .Business-card-site__container .slider .slider__button-container #slider__button-container__left .slider__button-container__left__svg {
+  background: url("grandTheatreSvg/vector_left.svg") center no-repeat;
+  width: 49px;
+  height: 25px;
+}
+.Business-card-site .Business-card-site__container .slider .slider__button-container #slider__button-container__left .slider__button-container__left__text {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+}
+.Business-card-site .Business-card-site__container .slider .slider__button-container #slider__button-container__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 108px;
+  height: 25px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px;
+  border: 0px;
+  background-color: rgba(0, 0, 0, 0);
+}
+.Business-card-site .Business-card-site__container .slider .slider__button-container #slider__button-container__right .slider__button-container__right__svg {
+  background: url("grandTheatreSvg/vector_right.svg") center no-repeat;
+  width: 49px;
+  height: 25px;
+}
+.Business-card-site .Business-card-site__container .slider .slider__button-container #slider__button-container__right .slider__button-container__right__text {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  width: 43px;
+  height: 25px;
+}
+.Business-card-site .Business-card-site__container .slider .slider__button-container #slider__button-container__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 108px;
+  height: 25px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px;
+  border: 0px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.about-the-theater {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 1110px;
+  height: 457px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.about-the-theater .about-the-theater_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 1110px;
+  height: 292px;
+}
+.about-the-theater .about-the-theater_content .about-the-theater_text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 445px;
+  height: 273px;
+}
+.about-the-theater .about-the-theater_content .about-the-theater_text-container .about-the-theater_text_content {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 19px;
+}
+.about-the-theater .about-the-theater_content .about-the-theater_title {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+}
+.about-the-theater .about-the-theater_content .about-the-theater_statistics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 255px;
+  height: 292px;
+}
+.about-the-theater .about-the-theater_content .about-the-theater_statistics .about-the-theater_statistics_svg-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 166px;
+  height: 229px;
+}
+.about-the-theater .about-the-theater_content .about-the-theater_statistics .about-the-theater_statistics_svg-container .about-the-theater_statistics_svg-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 166px;
+  height: 102px;
+}
+.about-the-theater .about-the-theater_content .about-the-theater_statistics .about-the-theater_statistics_svg-container .about-the-theater_statistics_svg {
+  height: 70px;
+  width: 70px;
+  left: 880px;
+}
+.about-the-theater .about-the-theater_content .about-the-theater_statistics .about-the-theater_statistics_svg-container .about-the-theater_statistics_svg-container_text {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+
+.our-productions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 715px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  overflow: hidden;
+}
+.our-productions #theater-partners_contant-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  width: 91.28vw;
+  height: 550px;
+  margin-left: 150px;
+  overflow-x: auto;
+}
+.our-productions #theater-partners_contant-container::-webkit-scrollbar {
+  display: none;
+}
+.our-productions #theater-partners_contant-container .content_line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1768px;
+  min-width: 1768px;
+  position: relative;
+  height: 550px;
+}
+.our-productions #theater-partners_contant-container .theater-partners_september {
+  background-image: url("grandTheatreImg/Rectangle 15.png");
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 442px;
+  height: 550px;
+}
+.our-productions #theater-partners_contant-container .theater-partners_img {
+  background-image: url("grandTheatreImg/Rectangle 16.png");
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 442px;
+  height: 550px;
+}
+.our-productions #theater-partners_contant-container .theater-partners_july {
+  background-image: url("grandTheatreImg/lodge.png");
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 442px;
+  height: 550px;
+}
+.our-productions #theater-partners_contant-container .theater-partners_may {
+  background-image: url("grandTheatreImg/fountain.png");
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 442px;
+  height: 550px;
+}
+.our-productions #theater-partners_contant-container .theater-partners_svg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 30px;
+  height: 30px;
+  background: url("grandTheatreSvg/lupa.svg") center no-repeat;
+  background-color: #D1A954;
+  border: 0px;
+  border-radius: 100px;
+  padding: 35px;
+}
+.our-productions #theater-partners_contant-container .theater-partners_img-title {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  margin: 40px;
+}
+.our-productions #theater-partners_contant-container .theater-partners_img-date {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  width: 133px;
+  text-align: start;
+  position: relative;
+  left: -17px;
+  bottom: 90px;
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+
+.rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url("grandTheatreImg/smallBacground.png") center no-repeat;
+  width: 1110px;
+  height: 550px;
+}
+.rating .rating_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 825px;
+  height: 298px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 95px;
+}
+.rating .rating_container .rating_date {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 98px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  width: 182px;
+  color: #D1A954;
+}
+.rating .rating_container .rating_content-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 540px;
+  height: 213px;
+}
+.rating .rating_container .rating_content-container .rating_star {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 230px;
+  height: 24px;
+}
+.rating .rating_container .rating_content-container .rating_star .star_svg {
+  background: url("grandTheatreSvg/star.svg") center no-repeat;
+  width: 26px;
+  width: 26px;
+}
+.rating .rating_container .rating_content-container .rating_text {
+  width: 540px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.theater-partners {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 1040px;
+  height: 437px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.theater-partners .gazprom-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 200px 80px 200px 80px 200px 80px 200px;
+  grid-template-columns: 200px 200px 200px 200px;
+  -ms-grid-rows: 96px 80px 96px;
+  grid-template-rows: 96px 96px;
+  gap: 80px;
+}
+.theater-partners .gazprom-container > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+.theater-partners .gazprom-container > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+}
+.theater-partners .gazprom-container > *:nth-child(3) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 5;
+}
+.theater-partners .gazprom-container > *:nth-child(4) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 7;
+}
+.theater-partners .gazprom-container > *:nth-child(5) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+}
+.theater-partners .gazprom-container > *:nth-child(6) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+}
+.theater-partners .gazprom-container > *:nth-child(7) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 5;
+}
+.theater-partners .gazprom-container > *:nth-child(8) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 7;
+}
+.theater-partners .gazprom-container .gazprom-svg {
+  background: url("grandTheatreSvg/logogazprom.svg") center no-repeat;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.become-a-philanthropist {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 1110px;
+  height: 355px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 120px;
+}
+.become-a-philanthropist .become-a-philanthropist-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 1110px;
+  height: 190px;
+}
+.become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 255px;
+  height: 143px;
+}
+.become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact .become-a-philanthropist-contact_text {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.05px;
+  color: #FFFFFF;
+  width: 255px;
+}
+.become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 180px 30px 180px 30px 310px;
+  grid-template-columns: 180px 180px 310px;
+  -ms-grid-rows: 35px 30px 35px 30px 60px;
+  grid-template-rows: 35px 35px 60px;
+  gap: 30px;
+}
+.become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+.become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+}
+.become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container > *:nth-child(3) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 5;
+}
+.become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container > *:nth-child(4) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+}
+.become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container > *:nth-child(5) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+}
+.become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container > *:nth-child(6) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 5;
+}
+.become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container > *:nth-child(7) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+}
+.become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container > *:nth-child(8) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 3;
+}
+.become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container > *:nth-child(9) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 5;
+}
+.become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container input {
+  color: #989898;
+  padding: 0px;
+  padding-left: 15px;
+}
+.become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container input:focus-visible {
+  outline: none;
+}
+.become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container textarea {
+  color: #989898;
+  padding-left: 15px;
+  padding-top: 8px;
+  resize: none;
+}
+.become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container textarea:focus-visible {
+  outline: none;
+}
+.become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container .become-a-philanthropist-contact_input-container_input {
+  background-color: #444444;
+  border: 1px solid #616161;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container .input-big {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  grid-row: 1/3;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3/4;
+}
+.become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container .become-a-philanthropist-contact_input-container_element-text {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1/3;
+  padding-top: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  color: #989898;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+}
+.become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container .become-a-philanthropist-contact_input-container_button-container {
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+  -ms-grid-column-align: end;
+      justify-self: end;
+  height: 50px;
+  width: 190px;
+  padding-top: 10px;
+}
+.become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container .become-a-philanthropist-contact_input-container_button-container .become-a-philanthropist-contact_input-container_button {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  color: #FFFFFF;
+  text-align: center;
+  width: 190px;
+  height: 50px;
+  background-color: #D1A954;
+  padding: 0px;
+  border: 0;
+}
+
+.license {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 1110px;
+  height: 78px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: 1px solid #565656;
+  margin-top: 80px;
+}
+.license .license-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  color: #989898;
+}
