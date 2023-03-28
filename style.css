@@ -36,6 +36,10 @@ body, html {
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -417,7 +421,7 @@ header .header_container .header__mobile-number {
   background-color: rgba(0, 0, 0, 0);
 }
 
-.about-the-theater {
+#about-the-theater {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -434,7 +438,7 @@ header .header_container .header__mobile-number {
       -ms-flex-align: center;
           align-items: center;
 }
-.about-the-theater .about-the-theater_content {
+#about-the-theater .about-the-theater_content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -448,7 +452,7 @@ header .header_container .header__mobile-number {
   width: 1110px;
   height: 292px;
 }
-.about-the-theater .about-the-theater_content .about-the-theater_text-container {
+#about-the-theater .about-the-theater_content .about-the-theater_text-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -462,7 +466,7 @@ header .header_container .header__mobile-number {
   width: 445px;
   height: 273px;
 }
-.about-the-theater .about-the-theater_content .about-the-theater_text-container .about-the-theater_text_content {
+#about-the-theater .about-the-theater_content .about-the-theater_text-container .about-the-theater_text_content {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -471,7 +475,7 @@ header .header_container .header__mobile-number {
   text-align: left;
   margin-bottom: 19px;
 }
-.about-the-theater .about-the-theater_content .about-the-theater_title {
+#about-the-theater .about-the-theater_content .about-the-theater_title {
   font-family: "Open Sans Condensed", sans-serif;
   font-size: 21px;
   font-weight: 700;
@@ -479,7 +483,7 @@ header .header_container .header__mobile-number {
   letter-spacing: 0.1em;
   color: #FFFFFF;
 }
-.about-the-theater .about-the-theater_content .about-the-theater_statistics {
+#about-the-theater .about-the-theater_content .about-the-theater_statistics {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -493,7 +497,7 @@ header .header_container .header__mobile-number {
   width: 255px;
   height: 292px;
 }
-.about-the-theater .about-the-theater_content .about-the-theater_statistics .about-the-theater_statistics_svg-container {
+#about-the-theater .about-the-theater_content .about-the-theater_statistics .about-the-theater_statistics_svg-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -507,7 +511,7 @@ header .header_container .header__mobile-number {
   width: 166px;
   height: 229px;
 }
-.about-the-theater .about-the-theater_content .about-the-theater_statistics .about-the-theater_statistics_svg-container .about-the-theater_statistics_svg-content {
+#about-the-theater .about-the-theater_content .about-the-theater_statistics .about-the-theater_statistics_svg-container .about-the-theater_statistics_svg-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -521,12 +525,12 @@ header .header_container .header__mobile-number {
   width: 166px;
   height: 102px;
 }
-.about-the-theater .about-the-theater_content .about-the-theater_statistics .about-the-theater_statistics_svg-container .about-the-theater_statistics_svg {
+#about-the-theater .about-the-theater_content .about-the-theater_statistics .about-the-theater_statistics_svg-container .about-the-theater_statistics_svg {
   height: 70px;
   width: 70px;
   left: 880px;
 }
-.about-the-theater .about-the-theater_content .about-the-theater_statistics .about-the-theater_statistics_svg-container .about-the-theater_statistics_svg-container_text {
+#about-the-theater .about-the-theater_content .about-the-theater_statistics .about-the-theater_statistics_svg-container .about-the-theater_statistics_svg-container_text {
   font-family: "Open Sans Condensed", sans-serif;
   font-size: 16px;
   font-weight: 700;
@@ -535,7 +539,7 @@ header .header_container .header__mobile-number {
   color: #FFFFFF;
 }
 
-.our-productions {
+#our-productions {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -555,7 +559,7 @@ header .header_container .header__mobile-number {
       align-self: flex-end;
   overflow: hidden;
 }
-.our-productions #theater-partners_contant-container {
+#our-productions #our-productions_contant-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -566,10 +570,10 @@ header .header_container .header__mobile-number {
   margin-left: 150px;
   overflow-x: auto;
 }
-.our-productions #theater-partners_contant-container::-webkit-scrollbar {
+#our-productions #our-productions_contant-container::-webkit-scrollbar {
   display: none;
 }
-.our-productions #theater-partners_contant-container .content_line {
+#our-productions #our-productions_contant-container .content_line {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -578,7 +582,7 @@ header .header_container .header__mobile-number {
   position: relative;
   height: 550px;
 }
-.our-productions #theater-partners_contant-container .theater-partners_september {
+#our-productions #our-productions_contant-container .our-productions_september {
   background-image: url("grandTheatreImg/Rectangle 15.png");
   background-size: cover;
   display: -webkit-box;
@@ -594,7 +598,7 @@ header .header_container .header__mobile-number {
   width: 442px;
   height: 550px;
 }
-.our-productions #theater-partners_contant-container .theater-partners_img {
+#our-productions #our-productions_contant-container .our-productions_img {
   background-image: url("grandTheatreImg/Rectangle 16.png");
   background-size: cover;
   display: -webkit-box;
@@ -609,7 +613,7 @@ header .header_container .header__mobile-number {
   width: 442px;
   height: 550px;
 }
-.our-productions #theater-partners_contant-container .theater-partners_july {
+#our-productions #our-productions_contant-container .our-productions_july {
   background-image: url("grandTheatreImg/lodge.png");
   background-size: cover;
   display: -webkit-box;
@@ -625,7 +629,7 @@ header .header_container .header__mobile-number {
   width: 442px;
   height: 550px;
 }
-.our-productions #theater-partners_contant-container .theater-partners_may {
+#our-productions #our-productions_contant-container .our-productions_may {
   background-image: url("grandTheatreImg/fountain.png");
   background-size: cover;
   display: -webkit-box;
@@ -641,7 +645,7 @@ header .header_container .header__mobile-number {
   width: 442px;
   height: 550px;
 }
-.our-productions #theater-partners_contant-container .theater-partners_svg {
+#our-productions #our-productions_contant-container .our-productions_svg {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -659,7 +663,7 @@ header .header_container .header__mobile-number {
   border-radius: 100px;
   padding: 35px;
 }
-.our-productions #theater-partners_contant-container .theater-partners_img-title {
+#our-productions #our-productions_contant-container .our-productions_img-title {
   font-family: "Open Sans Condensed", sans-serif;
   font-size: 24px;
   font-weight: 700;
@@ -668,7 +672,7 @@ header .header_container .header__mobile-number {
   color: #FFFFFF;
   margin: 40px;
 }
-.our-productions #theater-partners_contant-container .theater-partners_img-date {
+#our-productions #our-productions_contant-container .our-productions_img-date {
   font-family: "Open Sans Condensed", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -769,7 +773,7 @@ header .header_container .header__mobile-number {
   text-align: left;
 }
 
-.theater-partners {
+#theater-partners {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -786,7 +790,7 @@ header .header_container .header__mobile-number {
       -ms-flex-align: center;
           align-items: center;
 }
-.theater-partners .gazprom-container {
+#theater-partners .gazprom-container {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 200px 80px 200px 80px 200px 80px 200px;
@@ -795,39 +799,39 @@ header .header_container .header__mobile-number {
   grid-template-rows: 96px 96px;
   gap: 80px;
 }
-.theater-partners .gazprom-container > *:nth-child(1) {
+#theater-partners .gazprom-container > *:nth-child(1) {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
 }
-.theater-partners .gazprom-container > *:nth-child(2) {
+#theater-partners .gazprom-container > *:nth-child(2) {
   -ms-grid-row: 1;
   -ms-grid-column: 3;
 }
-.theater-partners .gazprom-container > *:nth-child(3) {
+#theater-partners .gazprom-container > *:nth-child(3) {
   -ms-grid-row: 1;
   -ms-grid-column: 5;
 }
-.theater-partners .gazprom-container > *:nth-child(4) {
+#theater-partners .gazprom-container > *:nth-child(4) {
   -ms-grid-row: 1;
   -ms-grid-column: 7;
 }
-.theater-partners .gazprom-container > *:nth-child(5) {
+#theater-partners .gazprom-container > *:nth-child(5) {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
 }
-.theater-partners .gazprom-container > *:nth-child(6) {
+#theater-partners .gazprom-container > *:nth-child(6) {
   -ms-grid-row: 3;
   -ms-grid-column: 3;
 }
-.theater-partners .gazprom-container > *:nth-child(7) {
+#theater-partners .gazprom-container > *:nth-child(7) {
   -ms-grid-row: 3;
   -ms-grid-column: 5;
 }
-.theater-partners .gazprom-container > *:nth-child(8) {
+#theater-partners .gazprom-container > *:nth-child(8) {
   -ms-grid-row: 3;
   -ms-grid-column: 7;
 }
-.theater-partners .gazprom-container .gazprom-svg {
+#theater-partners .gazprom-container .gazprom-svg {
   background: url("grandTheatreSvg/logogazprom.svg") center no-repeat;
 }
 
@@ -844,7 +848,7 @@ footer {
           align-items: center;
 }
 
-.become-a-philanthropist {
+#become-a-philanthropist {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -862,7 +866,7 @@ footer {
           align-items: center;
   margin-top: 120px;
 }
-.become-a-philanthropist .become-a-philanthropist-container {
+#become-a-philanthropist .become-a-philanthropist-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -876,7 +880,7 @@ footer {
   width: 1110px;
   height: 190px;
 }
-.become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact {
+#become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -890,7 +894,7 @@ footer {
   width: 255px;
   height: 143px;
 }
-.become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact .become-a-philanthropist-contact_text {
+#become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact .become-a-philanthropist-contact_text {
   font-family: "Open Sans Condensed", sans-serif;
   font-size: 16px;
   font-weight: 700;
@@ -899,7 +903,7 @@ footer {
   color: #FFFFFF;
   width: 255px;
 }
-.become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container {
+#become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 180px 30px 180px 30px 310px;
@@ -908,60 +912,60 @@ footer {
   grid-template-rows: 35px 35px 60px;
   gap: 30px;
 }
-.become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container > *:nth-child(1) {
+#become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container > *:nth-child(1) {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
 }
-.become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container > *:nth-child(2) {
+#become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container > *:nth-child(2) {
   -ms-grid-row: 1;
   -ms-grid-column: 3;
 }
-.become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container > *:nth-child(3) {
+#become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container > *:nth-child(3) {
   -ms-grid-row: 1;
   -ms-grid-column: 5;
 }
-.become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container > *:nth-child(4) {
+#become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container > *:nth-child(4) {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
 }
-.become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container > *:nth-child(5) {
+#become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container > *:nth-child(5) {
   -ms-grid-row: 3;
   -ms-grid-column: 3;
 }
-.become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container > *:nth-child(6) {
+#become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container > *:nth-child(6) {
   -ms-grid-row: 3;
   -ms-grid-column: 5;
 }
-.become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container > *:nth-child(7) {
+#become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container > *:nth-child(7) {
   -ms-grid-row: 5;
   -ms-grid-column: 1;
 }
-.become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container > *:nth-child(8) {
+#become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container > *:nth-child(8) {
   -ms-grid-row: 5;
   -ms-grid-column: 3;
 }
-.become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container > *:nth-child(9) {
+#become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container > *:nth-child(9) {
   -ms-grid-row: 5;
   -ms-grid-column: 5;
 }
-.become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container input {
+#become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container input {
   color: #989898;
   padding: 0px;
   padding-left: 15px;
 }
-.become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container input:focus-visible {
+#become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container input:focus-visible {
   outline: none;
 }
-.become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container textarea {
+#become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container textarea {
   color: #989898;
   padding-left: 15px;
   padding-top: 8px;
   resize: none;
 }
-.become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container textarea:focus-visible {
+#become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container textarea:focus-visible {
   outline: none;
 }
-.become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container .become-a-philanthropist-contact_input-container_input {
+#become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container .become-a-philanthropist-contact_input-container_input {
   background-color: #444444;
   border: 1px solid #616161;
   font-family: "Open Sans", sans-serif;
@@ -971,7 +975,7 @@ footer {
   letter-spacing: 0em;
   text-align: left;
 }
-.become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container .input-big {
+#become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container .input-big {
   -ms-grid-row: 1;
   -ms-grid-row-span: 2;
   grid-row: 1/3;
@@ -979,7 +983,7 @@ footer {
   -ms-grid-column-span: 1;
   grid-column: 3/4;
 }
-.become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container .become-a-philanthropist-contact_input-container_element-text {
+#become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container .become-a-philanthropist-contact_input-container_element-text {
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
   grid-column: 1/3;
@@ -991,7 +995,7 @@ footer {
   line-height: 18px;
   letter-spacing: 0em;
 }
-.become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container .become-a-philanthropist-contact_input-container_button-container {
+#become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container .become-a-philanthropist-contact_input-container_button-container {
   -ms-flex-item-align: end;
       -ms-grid-row-align: end;
       align-self: end;
@@ -1001,7 +1005,7 @@ footer {
   width: 190px;
   padding-top: 10px;
 }
-.become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container .become-a-philanthropist-contact_input-container_button-container .become-a-philanthropist-contact_input-container_button {
+#become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container .become-a-philanthropist-contact_input-container_button-container .become-a-philanthropist-contact_input-container_button {
   font-family: "Open Sans Condensed", sans-serif;
   font-size: 18px;
   font-weight: 700;

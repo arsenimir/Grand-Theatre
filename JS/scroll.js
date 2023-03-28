@@ -1,4 +1,4 @@
-document.getElementById("theater-partners_contant-container")
+document.getElementById("our-productions_contant-container")
   .addEventListener('wheel', function(event) {
     if (event.deltaMode == event.DOM_DELTA_PIXEL) {
       var modifier = 1;
