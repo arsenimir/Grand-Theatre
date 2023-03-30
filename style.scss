@@ -205,6 +205,11 @@ header{
 
             nav{
                 @include OpenSansCondensed(0.1em, 24.51px, 18px);
+
+                &:hover{
+                    opacity: 0.6;
+                    transition: all .5s;
+                }
             }
         }
 
@@ -237,12 +242,17 @@ header{
             }
 
             .Business-card-site_content_text{
-                @include mainText()
+                @include mainText();
             }
 
             .Business-card-site_content_button{
                 @include button(160px);
-                @include OpenSansCondensed(0.1em, 25px, 18px)
+                @include OpenSansCondensed(0.1em, 25px, 18px);
+
+                &:hover{
+                    opacity: 0.6;
+                    transition: all .5s;
+                }
             }
         }
 
@@ -255,11 +265,11 @@ header{
                 width: 370px;
     
                 .slider__img-container_first-img{
-                    @include sliderImg(0, 0, 100000000)
+                    @include sliderImg(0, 0, 100000000);
                 }
     
                 .slider__img-container_second-img{
-                    @include sliderImg(-474px, 20px, 1)
+                    @include sliderImg(-474px, 20px, 1);
                 }
             }
 
@@ -351,7 +361,7 @@ header{
                 @include space-between(166px, 102px + 102px + 25px, column);
 
                 .about-the-theater_statistics_svg-content{
-                    @include space-between(166px, 102px, column)
+                    @include space-between(166px, 102px, column);
                 }
 
                 .about-the-theater_statistics_svg{
@@ -613,6 +623,11 @@ footer{
                     background-color: $secondColor;
                     padding: 0px;
                     border: 0;
+
+                    &:hover{
+                        opacity: 0.6;
+                        transition: all .5s;
+                    }
                 }
             }
         }
@@ -637,4 +652,3 @@ footer{
         color: $footercolor;     
     }
 }
-

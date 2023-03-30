@@ -196,6 +196,11 @@ header .header_container .navigator nav {
   letter-spacing: 0.1em;
   color: #FFFFFF;
 }
+header .header_container .navigator nav:hover {
+  opacity: 0.6;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
 header .header_container .header__mobile-number {
   font-family: "Open Sans Condensed", sans-serif;
   font-size: 16px;
@@ -290,6 +295,11 @@ header .header_container .header__mobile-number {
   line-height: 25px;
   letter-spacing: 0.1em;
   color: #FFFFFF;
+}
+.Business-card-site .Business-card-site__container .Business-card-site__content .Business-card-site_content_button:hover {
+  opacity: 0.6;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 .Business-card-site .Business-card-site__container .slider {
   height: 570px;
@@ -1019,6 +1029,11 @@ footer {
   background-color: #D1A954;
   padding: 0px;
   border: 0;
+}
+#become-a-philanthropist .become-a-philanthropist-container .become-a-philanthropist-contact_input-container .become-a-philanthropist-contact_input-container_button-container .become-a-philanthropist-contact_input-container_button:hover {
+  opacity: 0.6;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .license {
